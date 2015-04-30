@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:text="Beacon" />
+
+    <TextView
+        android:id="@+id/msg1"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/msg2"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <Button
+        android:id="@+id/turnonBtn"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:text="Turn On" />
+
+    <Button
+        android:id="@+id/disconnectBtn"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Turn Off" />
+
+    <TextView
+        android:id="@+id/historic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:overScrollMode="always"
+        android:text="historic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </LinearLayout>
+
+</LinearLayout>
